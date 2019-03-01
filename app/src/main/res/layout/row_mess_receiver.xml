@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="12dp"
+    android:paddingRight="60dp"
+    android:paddingVertical="4dp"
+    android:clipToPadding="false">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_receiver"
+        android:background="@drawable/round_receiver"
+        android:paddingVertical="12dp"
+        android:paddingHorizontal="16dp"
+        android:elevation="1.5dp"
+        android:textSize="15.5dp"
+        android:text="How are you doing? This is a long message that should probably wrap."
+        />
+
+
+</RelativeLayout>
